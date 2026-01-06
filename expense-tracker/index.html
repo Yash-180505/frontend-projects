@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Expense Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="main_block">
+  <h1>Expense Tracker</h1>
+
+  <div id="outer">
+
+    <!-- LEFT -->
+    <div id="symbol">
+      <h2>Expenses</h2>
+      <button class="expenses">Grocery</button>
+      <button class="expenses">Electricity</button>
+      <button class="expenses">Loan</button>
+      <button class="expenses">Saving</button>
+      <button class="expenses">Other</button>
+    </div>
+
+    <!-- RIGHT -->
+    <div id="tracker">
+      <h2>Tracker</h2>
+
+      <input id="salaryInput" type="number" placeholder="Enter Monthly Salary">
+
+      <div id="rows"></div>
+
+      <div id="summary">
+        <p>Total Expenses: ₹<span id="totalExpense">0</span></p>
+        <p>Balance: ₹<span id="balance">0</span></p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
