@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>To-Do List</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div id="app">
+    <h1 class="app-title">To-Do List</h1>
+
+    <!-- Input Section -->
+    <div id="input">
+      <div class="input-section">
+        <input id="task-input" type="text" placeholder="Enter a task">
+        <button id="add-btn">ADD</button>
+      </div>
+    </div>
+
+    <!-- Task List Section -->
+    <div id="task">
+      <!-- tasks will be added here later using JS -->
+    </div>
+        <div id="completed">
+          <h2>Task Completed</h2>
+          <button id="clear" style="display:none;">Clear</button>
+        </div>
+  </div>
+
+ <script src="script.js"></script>
+</body>
+</html>
