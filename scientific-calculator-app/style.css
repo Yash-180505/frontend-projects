@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #061E29;
+}
+
+#outer{
+    width: 300px;
+    padding: 20px;
+    background: #1D546D;
+    border-radius: 14px;
+    text-align: center;
+}
+
+h2{
+    color: #F3F4F4;
+    margin-bottom: 12px;
+}
+
+#display{
+    width: 100%;
+    height: 48px;
+    font-size: 20px;
+    text-align: right;
+    padding: 8px;
+    margin-bottom: 14px;
+    border: none;
+    border-radius: 6px;
+    background: #F3F4F4;
+    color: #061E29;
+}
+
+/* Common button style */
+button{
+    height: 42px;
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background: #5F9598;
+    color: #061E29;
+    font-weight: bold;
+}
+
+button:hover{
+    background: #F3F4F4;
+}
+
+/* Numbers */
+.number{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* Operators */
+.operators{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin-bottom: 12px;
+}
+
+/* Scientific buttons – FIXED */
+.scientific{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 8px;
+    margin-bottom: 14px;
+}
+
+.scientific button{
+    height: 40px;
+    font-size: 14px;
+}
+
+/* Clear button */
+#clear{
+    background: #F3F4F4;
+}
+
+#clear:hover{
+    background: #5F9598;
+}
+
+/* Equals */
+#equals{
+    width: 100%;
+    height: 46px;
+    font-size: 18px;
+    background: #F3F4F4;
+    color: #061E29;
+}
+
+#equals:hover{
+    background: #5F9598;
+}
+.scientific{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 6px;
+    margin-bottom: 14px;
+}
+
+.scientific button{
+    height: 38px;
+    font-size: 13px;
+    padding: 0;
+    background: #5F9598;
+    color: #061E29;
+    border-radius: 6px;
+}
