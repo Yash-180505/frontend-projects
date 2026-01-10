@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #74ebd5, #acb6e5);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#App {
+    background: white;
+    padding: 25px 30px;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    width: 300px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#input {
+    width: 80%;
+    padding: 8px;
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    outline: none;
+}
+
+#searchbtn {
+    margin-top: 10px;
+    padding: 8px 15px;
+    border: none;
+    background: #4facfe;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+#searchbtn:hover {
+    background: #00c6fb;
+}
+
+#output {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #222;
+}
