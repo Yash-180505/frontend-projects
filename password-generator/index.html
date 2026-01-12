@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div id="App">
+    <h1>Password Generator</h1>
+      <label >Lenth:</label>
+      <input type="text" id="length" placeholder="Enter the length of password ">
+      <input type="checkbox"  id="ABC">
+      <label for="ABC">Include uppercase letters (A-Z)</label>
+         <input type="checkbox"  id="abc">
+      <label for="abc">Include lowercase letters (a-z)</label>
+         <input type="checkbox"  id="number">
+      <label for="number">Include numbers(0-9)</label>
+         <input type="checkbox"  id="symbol">
+      <label for="symbol">Include symbol(!@#$ etc.)</label>
+      <button id="generate">Generate</button>
+   
+        <div id="outer"></div>
+   
+   </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
